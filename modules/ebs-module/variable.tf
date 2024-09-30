@@ -6,10 +6,11 @@ variable "ebs_size" {
 variable "az" {
     description = "Availability zone of the instance ebs"
     type = string
-    default = "us-east-b1"
+    default = "us-east-1b"
 }
 
 variable "ebs_tag" {
-    type = string
-    default = "hamid-ebs"
+    default = {
+      Name = "hamid-ebs"
+    }
 }

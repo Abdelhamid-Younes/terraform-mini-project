@@ -18,5 +18,15 @@ variable "sg_name" {
 variable "az" {
     description = "Availability zone of the instance ec2"
     type = string
-    default = "us-east-b1"
+    default = "us-east-1b"
+}
+
+variable "public_ip" {
+  type = string
+  default = "NULL"
+}
+
+variable "user" {
+  type = string
+  default = "ubuntu"
 }
