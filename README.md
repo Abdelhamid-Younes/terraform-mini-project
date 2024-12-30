@@ -1,4 +1,4 @@
-# AWS Nginx Deployment with Terraform
+# AWS Nginx deployment with Terraform
 
 This project uses Terraform to deploy an infrastructure on AWS. The goal is to automatically provision resources for hosting Nginx, including EC2 instances, EBS volumes, elastic IP addresses, and security groups.
 <p align="center">
