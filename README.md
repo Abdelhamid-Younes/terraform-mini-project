@@ -47,10 +47,10 @@ To deploy the configuration, follow these steps:
 
 1. **Clone this repository** to your local machine:
    ```bash
-   git clone https://github.com/your-repo/nginx-deployment-terraform.git
+   git clone https://github.com/your-repo/terraform-mini-project.git
 2. **Navigate to the project directory**:
    ```bash
-   cd nginx-deployment-terraform
+   cd terraform-mini-project
    
 3. **Run the command** `terraform init` to initialize Terraform and download the required providers:
 ```bash
