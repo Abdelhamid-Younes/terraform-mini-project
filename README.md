@@ -47,7 +47,7 @@ To deploy the configuration, follow these steps:
 
 1. **Clone this repository** to your local machine:
    ```bash
-   git clone https://github.com/your-repo/terraform-mini-project.git
+   git clone https://github.com/Abdelhamid-Younes/terraform-mini-project.git
 2. **Navigate to the project directory**:
    ```bash
    cd terraform-mini-project
