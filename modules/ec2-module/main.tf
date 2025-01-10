@@ -1,10 +1,10 @@
 data "aws_ami" "ubuntu_ami" {
   most_recent = true
-  owners      = ["014893574759"]
+  owners      = ["amazon"]
 
   filter {
     name   = "name"
-    values = ["*ubuntu*"]
+    values = ["*ubuntu-bionic*"]
   }
 }
 
