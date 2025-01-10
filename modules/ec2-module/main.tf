@@ -36,7 +36,7 @@ resource "aws_instance" "my_ec2" {
      connection {
        type = "ssh"
        user = var.user
-       private_key = file("C:/Users/Administrados/devops-hamid.pem")
+       private_key = file("C:/Users/younesabdh/devops-hamid.pem")
        host = self.public_ip
      }
   }

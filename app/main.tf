@@ -1,14 +1,14 @@
 provider "aws" {
   region = "us-east-1"
-  shared_credentials_files = ["C:/Users/Administrados/aws_credentials"]
+  shared_credentials_files = ["C:/Users/younesabdh/aws_credentials.txt"]
 }
 
 terraform {
   backend "s3" {
-    bucket = "terrafor-backend-hamid"
+    bucket = "terraform-backend-hamid"
     key = "nginx-tfstate"
     region = "us-east-1"
-    shared_credentials_files = ["C:/Users/Administrados/aws_credentials"]
+    shared_credentials_files = ["C:/Users/younesabdh/aws_credentials.txt"]
   }
 }
 
