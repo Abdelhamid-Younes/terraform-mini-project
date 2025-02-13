@@ -26,7 +26,7 @@ module "eip" {
 module "ec2" {
   source = "../modules/ec2-module"
   instance_type = "t2.micro"
-  public_ip = module.eip.output_eip_ip
+  #public_ip = module.eip.output_eip_ip
   sg_name = module.sg.output_sg_name
 }
 

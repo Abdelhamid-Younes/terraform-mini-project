@@ -4,7 +4,7 @@ data "aws_ami" "ubuntu_ami" {
 
   filter {
     name   = "name"
-    values = ["*ubuntu-bionic*"]
+    values = ["*ubuntu-jammy*"]
   }
 }
 
